@@ -1,5 +1,3 @@
---USE SM_04_BRENDA_GH;
-
 /*CREATE TABLE my_contacts
 (
 	last_name VARCHAR(30),
@@ -35,8 +33,14 @@ VALUES
 ('Anderson','Jillian','jill_anderson@breakneckpizza.com','F','1980-09-05','TEchnical Writer',
 'Palo Alto ,CA', 'Single','Kayaking, Reptiles','Relationship,Friends');*/
 
-INSERT INTO my_contacts
+/*INSERT INTO my_contacts
 ( first_name,email,profession,location)
 VALUES
-('Pat','Patpost@breakneckpizza.com','Postal Worker','Princeton ,NJ');
+('Pat','Patpost@breakneckpizza.com','Postal Worker','Princeton ,NJ');*/
 
+--SELECT * FROM my_contacts;
+
+INSERT INTO my_contacts
+VALUES
+('Funyon','Steven','steve@onionflavoredrings.com','M','1970-04-01','Punk','Grover''s Mill,NJ',
+'Single','Smashing the state','compatriots, guitar players');
