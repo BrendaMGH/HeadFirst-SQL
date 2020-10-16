@@ -55,7 +55,11 @@ INSERT INTO drink_info VALUES ('Lone Tree', 3.6, 4.2, 'red', 'Y', 17);
 INSERT INTO drink_info VALUES ('Greyhound', 4, 14, 'yellow', 'Y', 50); 
 INSERT INTO drink_info VALUES ('Indian Summer', 2.8, 7.2, 'brown', 'N', 30); 
 INSERT INTO drink_info VALUES ('Bull Frog', 2.6, 21.5, 'tan', 'Y', 80); 
-INSERT INTO drink_info VALUES ('Soda and It', 3.8, 4.7, 'red', 'N', 19);*/ 
+INSERT INTO drink_info VALUES ('Soda and It', 3.8, 4.7, 'red', 'N', 19);
 
 SELECT color, ice FROM drink_info 
-WHERE drink_name = 'Greyhound' OR drink_name = 'Kiss on the Lips';
+WHERE drink_name = 'Greyhound' OR drink_name = 'Kiss on the Lips';*/
+
+UPDATE drink_info
+SET cost = cost +1
+WHERE drink_name IN ('Blue Moon','Oh My Gosh','Lime Fizz');

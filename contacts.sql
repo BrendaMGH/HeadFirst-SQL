@@ -1,3 +1,5 @@
+--USE SM_04_BRENDA_GH
+
 /*CREATE TABLE my_contacts
 (
 	last_name VARCHAR(30),
