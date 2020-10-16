@@ -40,9 +40,13 @@ VALUES
 VALUES
 ('Pat','Patpost@breakneckpizza.com','Postal Worker','Princeton ,NJ');*/
 
---SELECT * FROM my_contacts;
+SELECT * FROM my_contacts;
 
-INSERT INTO my_contacts
+/*INSERT INTO my_contacts
 VALUES
 ('Funyon','Steven','steve@onionflavoredrings.com','M','1970-04-01','Punk','Grover''s Mill,NJ',
-'Single','Smashing the state','compatriots, guitar players');
+'Single','Smashing the state','compatriots, guitar players');*/
+
+/*ALTER TABLE my_contacts
+ADD contact_id INT NOT NULL IDENTITY(1,1) PRIMARY KEY;*/
+
