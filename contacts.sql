@@ -40,8 +40,6 @@ VALUES
 VALUES
 ('Pat','Patpost@breakneckpizza.com','Postal Worker','Princeton ,NJ');*/
 
-SELECT * FROM my_contacts;
-
 /*INSERT INTO my_contacts
 VALUES
 ('Funyon','Steven','steve@onionflavoredrings.com','M','1970-04-01','Punk','Grover''s Mill,NJ',
@@ -50,3 +48,17 @@ VALUES
 /*ALTER TABLE my_contacts
 ADD contact_id INT NOT NULL IDENTITY(1,1) PRIMARY KEY;*/
 
+/*ALTER TABLE my_contacts
+ADD state VARCHAR(2) default NULL; */
+/*ALTER TABLE my_contacts
+ADD city VARCHAR(50) default NULL;*/
+
+/*UPDATE my_contacts
+SET state = RIGHT(location, 2);*/
+/*UPDATE my_contacts
+SET city = SUBSTRING(location, 1, (SELECT CHARINDEX(',',location)-1)) FROM my_contacts*/
+
+/*ALTER TABLE my_contacts
+DROP COLUMN location;*/
+
+SELECT * FROM my_contacts;
