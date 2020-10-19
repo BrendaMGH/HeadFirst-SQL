@@ -7,5 +7,8 @@ Use _**SELECT**_ keyword with _**WHERE**_ to get only the data you need. [See mo
 Use _**DELETE**_ keyword with _**WHERE**_ to delete rows, use _**UPDATE**_ with _**SET** and _**WHERE**_ to modify rows. [See more](https://github.com/BrendaMGH/HeadFirst-SQL/commit/0f8f9c7bb1fe09258926de7bd158ce240a781949)
 ### Chapter 4 - Atomic data & Primary keys
 Learn the rules to follow when designing a table, make your data atomic (break it down to the smallest pieces you need), use _**PRIMARY KEY**_ to uniquely identify the data and _**IDENTITY(start, step)**_ to auto fill it, use _**ALTER**_ and _**ADD COLUMN**_ to add new columns to the table. [See more](https://github.com/BrendaMGH/HeadFirst-SQL/commit/9bb7554b90bb972f2ffc1a9c904d5f9c4a270828) 
-### Chapter 5 - ALTER
-Use _**ALTER TABLE**_ to modify a table, with _**SP_RENAME**_ to rename your table, _**ADD**_ to create new columns and _**DROP**_ to delete columns;  
+### Chapter 5 - Alter
+Use _**ALTER TABLE**_ to modify a table, with _**SP_RENAME**_ to rename your table, _**ADD**_ to create new columns and _**DROP**_ to delete columns. [See more](https://github.com/BrendaMGH/HeadFirst-SQL/commit/dd1bebd581da4103fa8e051aa1436d9f0fc92c30)
+### Chapter 6 - More of Select
+Use functions like _**SUM, MAX, MIN, COUNT, AVG**_ and keyword like __**ORDER BY, GROUP BY, TOP, DISTINCT**_ to get specific data with the SELECT. 
+  
