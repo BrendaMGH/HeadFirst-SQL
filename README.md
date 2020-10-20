@@ -12,5 +12,7 @@ Use _**ALTER TABLE**_ to modify a table, with _**SP_RENAME**_ to rename your tab
 ### Chapter 6 - More of Select
 Use functions like _**SUM, MAX, MIN, COUNT, AVG**_ and keyword like __**ORDER BY, GROUP BY, TOP, DISTINCT**_ to get specific data with the SELECT. [See more](https://github.com/BrendaMGH/HeadFirst-SQL/tree/502583b541683c8b18825c0c8bd47470d8dde857) 
 ### Chapter 7 - Normal Forms
-Getting know the normal forms to design tables 1NF, 2NF and 3NF, learn about one-to-one, one-to-many and many-to-many relations and _**FOREIGN KEY**_.
-  
+Getting know the normal forms to design tables 1NF, 2NF and 3NF, learn about one-to-one, one-to-many and many-to-many relations and _**FOREIGN KEY**_. [See more](https://github.com/BrendaMGH/HeadFirst-SQL/tree/01e2c62e4ae2ac6914ee17d8a083479c1735f5b4) 
+### Chapter 8 - Joins
+Learn how to join tables with _**CROSS JOIN**_, _**INNER JOIN**_ equijoin and _**INNER JOIN**_ non-equijoin. 
+   
