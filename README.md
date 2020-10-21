@@ -16,5 +16,7 @@ Getting know the normal forms to design tables 1NF, 2NF and 3NF, learn about one
 ### Chapter 8 - Joins
 Learn how to join tables with _**CROSS JOIN**_, _**INNER JOIN**_ equijoin and _**INNER JOIN**_ non-equijoin. [See more](https://github.com/BrendaMGH/HeadFirst-SQL/tree/0ed6893addceb35f8b72c723b51d2170fa974b92) 
 ### Chapter 9 - Subqueries
-Use **inner queries** (**Subqueries**) to get on piece on data and use in your query (**outer query**) to have all the data you need in only one step.  
+Use **inner queries** (**Subqueries**) to get on piece on data and use in your query (**outer query**) to have all the data you need in only one step. [See more](https://github.com/BrendaMGH/HeadFirst-SQL/tree/bbd8c25e8d5fc332c385b8855b2e38b858f24b29)  
+### Chapter 10 - More joins
+Learn about _**LEFT OUTER JOIN**_, _**RIGHT OTER JOIN**_, _**UNION**_, _**INTERCEPT**_ and _**EXCEPT**_ to join your tables.      
    

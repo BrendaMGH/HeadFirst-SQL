@@ -155,8 +155,19 @@ INNER JOIN
 profession AS p
 ON mc.prof_id = p.prof_id;*/ 
 
-SELECT mc.first_name firstname, mc.email email, s.status 
+/*SELECT mc.first_name firstname, mc.email email, s.status 
 FROM my_contacts mc INNER JOIN status s
 ON mc.status_id = s.status_id
 WHERE s.status = (SELECT TOP 1 status.status FROM status GROUP BY status.status 
-						ORDER BY COUNT(DISTINCT status.status) DESC);
+						ORDER BY COUNT(DISTINCT status.status) DESC);*/
+
+/*SELECT mc.first_name firstname, mc.last_name lastname, mc.email email, i.interest interests
+  FROM my_contacts as mc
+LEFT OUTER JOIN contact_interest ci
+  ON mc.contact_id = ci.contact_id
+LEFT OUTER JOIN interest i
+  ON ci.int_id = i.int_id*/
+
+SELECT interest FROM interest
+UNION
+SELECT seeking FROM seeking;
