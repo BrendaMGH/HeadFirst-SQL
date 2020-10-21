@@ -20,5 +20,7 @@ Use **inner queries** (**subqueries**) to get on piece on data and use in your q
 ### Chapter 10 - More joins
 Learn about _**LEFT OUTER JOIN**_, _**RIGHT OTER JOIN**_, _**UNION**_, _**INTERSECT**_ and _**EXCEPT**_ to join your tables. [See more](https://github.com/BrendaMGH/HeadFirst-SQL/tree/4a542cce59e1ea193858567c4dd054b2bef2456b)   
 ### Chapter 11 - Check, Views & Transactions
-Use _**CHECK**_ to restrinct the data that can be entered, use _**CREATE VIEW**_ to save a query you oftenly need and _**BEGIN TRANSACTION**_ with _**COMMIT**_ and _**ROLLBACK**_to make sure all of your queries execute or none does.      
+Use _**CHECK**_ to restrinct the data that can be entered, use _**CREATE VIEW**_ to save a query you oftenly need and _**BEGIN TRANSACTION**_ with _**COMMIT**_ and _**ROLLBACK**_to make sure all of your queries execute or none does. [See more](https://github.com/BrendaMGH/HeadFirst-SQL/tree/b7db5963481367b09e40adcdcfa7ddb45206157b) 
+### Chapter 12 - Users
+Create new user _**CREATE LOGIN**_ give them permissions _**GRANT**_ and revoke them _**REVOKE**_ to have control over your database, create roles _**CREATE ROLE**_ to give permissions to multiple users.       
    

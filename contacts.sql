@@ -191,5 +191,14 @@ UPDATE interest
 SET interest = 'Screen Writing'
 WHERE interest = 'screenwriting'
 SELECT * FROM interest
-COMMIT
+COMMIT	
 SELECT * FROM interest;
+
+/* 
+	Para crear un nuevo usuario se usa "CREATE LOGIN" nombre_del_usuario "WITH PASSWORD" = 'contraseña'
+	Para conceder persmisos "GRANT SELECT ON" nombre_de_la_tabla "TO" nombre_del_usuario
+	Para revocar permisos "REVOKE SELECT ON" nombre_de_la_tabla "FROM" nombre_del_usuario
+	Para crear roles de usuarios con permisos especificos "CREATE ROLE" nombre_del_rol
+	Para conceder permisos a un rol "GRANT SELECT ON" nombre_de_la_tabla "TO" nombre_del_rol
+	Para añadir usuarios a un rol "GRANT" nombre_del_rol "TO" nombre_del_usuario
+*/ 
