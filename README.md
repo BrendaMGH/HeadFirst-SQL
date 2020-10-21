@@ -14,5 +14,7 @@ Use functions like _**SUM, MAX, MIN, COUNT, AVG**_ and keyword like __**ORDER BY
 ### Chapter 7 - Normal Forms
 Getting know the normal forms to design tables 1NF, 2NF and 3NF, learn about one-to-one, one-to-many and many-to-many relations and _**FOREIGN KEY**_. [See more](https://github.com/BrendaMGH/HeadFirst-SQL/tree/01e2c62e4ae2ac6914ee17d8a083479c1735f5b4) 
 ### Chapter 8 - Joins
-Learn how to join tables with _**CROSS JOIN**_, _**INNER JOIN**_ equijoin and _**INNER JOIN**_ non-equijoin. 
+Learn how to join tables with _**CROSS JOIN**_, _**INNER JOIN**_ equijoin and _**INNER JOIN**_ non-equijoin. [See more](https://github.com/BrendaMGH/HeadFirst-SQL/tree/0ed6893addceb35f8b72c723b51d2170fa974b92) 
+### Chapter 9 - Subqueries
+Use **inner queries** (**Subqueries**) to get on piece on data and use in your query (**outer query**) to have all the data you need in only one step.  
    
