@@ -155,8 +155,8 @@ INNER JOIN
 profession AS p
 ON mc.prof_id = p.prof_id;*/ 
 
-SELECT mc.first_name firstname, mc.phone phone, s.status status
+SELECT mc.first_name firstname, mc.email email, s.status 
 FROM my_contacts mc INNER JOIN status s
 ON mc.status_id = s.status_id
-WHERE s.status = (SELECT TOP 1 s.status COUNT(s.status) AS mostOften FROM s 
-					GROUP BY s.status ORDER BY mostOften DESC);
+WHERE s.status = (SELECT TOP 1 status.status FROM status GROUP BY status.status 
+						ORDER BY COUNT(DISTINCT status.status) DESC);
