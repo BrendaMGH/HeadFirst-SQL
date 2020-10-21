@@ -1,4 +1,4 @@
-USE SM_04_BRENDA_GH
+--USE SM_04_BRENDA_GH
 
 /*CREATE TABLE my_contacts
 (
@@ -168,6 +168,28 @@ LEFT OUTER JOIN contact_interest ci
 LEFT OUTER JOIN interest i
   ON ci.int_id = i.int_id*/
 
-SELECT interest FROM interest
+/*SELECT interest FROM interest
 UNION
-SELECT seeking FROM seeking;
+SELECT seeking FROM seeking;*/
+
+/*ALTER TABLE my_contacts
+ADD CONSTRAINT genderConst CHECK (gender IN ('M','F'));*/
+
+/*CREATE VIEW get_interests AS
+SELECT mc.first_name firstname, mc.last_name lastname, mc.email email, i.interest interests
+  FROM my_contacts as mc
+LEFT OUTER JOIN contact_interest ci
+  ON mc.contact_id = ci.contact_id
+LEFT OUTER JOIN interest i
+  ON ci.int_id = i.int_id;*/
+
+--SELECT * FROM get_interests;
+
+BEGIN TRANSACTION 
+SELECT * FROM interest
+UPDATE interest 
+SET interest = 'Screen Writing'
+WHERE interest = 'screenwriting'
+SELECT * FROM interest
+COMMIT
+SELECT * FROM interest;
